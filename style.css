@@ -368,7 +368,13 @@ footer {
     .nav-links.active {
         right: 0;
     }
-
+     .nav-links a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: color 0.3s;
+    
+}
     .menu-toggle {
         display: block;
     }
